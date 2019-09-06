@@ -13,6 +13,7 @@ class Product:
     Methods:
     stealability (Determines likelihood of product theft.)
     explode (Likelihood the product will explode)
+    """
 
     def __init__(self, name=None, price=10, weight=20, flammability=0.5,
                  identifier=randint(1000000, 10000000)):
