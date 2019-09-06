@@ -5,6 +5,15 @@ from random import randint
 
 
 class Product:
+    """Product class parameters:
+    name(=None)
+    price(=10)
+    weight(=20)
+    flammability(=0.5)
+    Methods:
+    stealability (Determines likelihood of product theft.)
+    explode (Likelihood the product will explode)
+
     def __init__(self, name=None, price=10, weight=20, flammability=0.5,
                  identifier=randint(1000000, 10000000)):
         self.name = name
@@ -16,7 +25,7 @@ class Product:
     def stealability(self):
         """Determines likelihood of product theft."""
         self.stealable = self.price/self.weight
-        #print (self.price, self.weight, self.stealable)
+        # print (self.price, self.weight, self.stealable)
         if self.stealable < 0.5:
             print("Not so stealable...")
         elif self.stealable >= .5 and self.stealable < 1.0:

@@ -6,7 +6,9 @@ from acme_report import generate_products, ADJECTIVES, NOUNS
 
 
 class AcmeProductTests(unittest.TestCase):
-    """Making sure Acme products are the tops!"""
+    """Making sure Acme products are the tops!
+    Tests product price, weight and stealability/explode methods
+    """
 
     def test_default_product_price(self):
         """Test default product price being 10."""
@@ -26,7 +28,10 @@ class AcmeProductTests(unittest.TestCase):
 
 
 class AcmeReportTests(unittest.TestCase):
-    """Making sure our reports are the tops!"""
+    """Making sure our reports are the tops!
+    Tests default number of products generated and if all 
+    names are legal names.
+    """
 
     def test_default_num_products(self):
         """Making sure correct number of default products"""
