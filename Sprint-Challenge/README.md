@@ -276,7 +276,7 @@ they did correctly. Another part is to review with an "empty mind." This means
 trying to forget everything you bring to the code and review it as if knowing
 nothing. This will better approximate people looking at the code for the first
 time or someone looking at the code after a long period of time.
-*The contents of containers can be specified exactly. If we're all using
+* The contents of containers can be specified exactly. If we're all using
 containers that have the exact, necessary software then there should be no
 (little?) need for debugging and individual's environment.
 
