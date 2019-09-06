@@ -269,6 +269,16 @@ career here, you'll have to answer the following:
   improve this situation?
 
 Answer both of these questions (baseline ~5 sentences) here in text.
+* There are several important parts of code reviews. One is to communicate
+suggestions in a way that the coder will accept. Know your audience! A sensitive
+person might need suggestions for improvement paired with a statement about what
+they did correctly. Another part is to review with an "empty mind." This means
+trying to forget everything you bring to the code and review it as if knowing
+nothing. This will better approximate people looking at the code for the first
+time or someone looking at the code after a long period of time.
+*The contents of containers can be specified exactly. If we're all using
+containers that have the exact, necessary software then there should be no
+(little?) need for debugging and individual's environment.
 
 ### Part 8 - Turn it in!
 
